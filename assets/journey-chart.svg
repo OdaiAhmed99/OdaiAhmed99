@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="500" viewBox="0 0 880 500" role="img" aria-label="Career progress chart, 2020 to now">
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+    .cmd { font-size: 13px; fill: #8b949e; }
+    .cmd .p { fill: #39d353; }
+    .axis { font-size: 11px; fill: #6e7681; letter-spacing: .5px; }
+    .date { font-size: 11px; fill: #22d3ee; }
+    .title { font-size: 13px; font-weight: 600; fill: #e6edf3; }
+    .line { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 2s ease-out .2s forwards; }
+    .area { opacity: 0; animation: fade 1s ease-out 1.4s forwards; }
+    .pt { opacity: 0; animation: fade .4s ease-out forwards; }
+    .p1 { animation-delay: .3s } .p2 { animation-delay: .55s } .p3 { animation-delay: .8s } .p4 { animation-delay: 1.05s }
+    .p5 { animation-delay: 1.3s } .p6 { animation-delay: 1.55s } .p7 { animation-delay: 1.8s }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2s ease-out 2.4s infinite; opacity: 0; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes fade { to { opacity: 1; } }
+    @keyframes pulse { 0% { opacity: .7; transform: scale(1); } 100% { opacity: 0; transform: scale(3); } }
+  </style>
+  <defs>
+    <linearGradient id="lineg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset=".55" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#39d353"/>
+    </linearGradient>
+    <linearGradient id="areag" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x=".5" y=".5" width="879" height="499" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text class="mono cmd" x="32" y="44"><tspan class="p">$</tspan> git log --graph career</text>
+  <text class="mono cmd" x="848" y="44" text-anchor="end">2020 → now</text>
+  <line x1="32" y1="64" x2="848" y2="64" stroke="#21262d"/>
+
+  <!-- grid -->
+  <g stroke="#21262d" stroke-dasharray="3 5">
+    <line x1="56" y1="140" x2="848" y2="140"/>
+    <line x1="56" y1="220" x2="848" y2="220"/>
+    <line x1="56" y1="300" x2="848" y2="300"/>
+    <line x1="56" y1="380" x2="848" y2="380"/>
+  </g>
+  <line x1="56" y1="460" x2="848" y2="460" stroke="#30363d"/>
+  <line x1="56" y1="96" x2="56" y2="460" stroke="#30363d"/>
+  <text class="mono axis" transform="translate(40,460) rotate(-90)">SCOPE &amp; OWNERSHIP →</text>
+  <text class="mono axis" x="848" y="482" text-anchor="end">TIME →</text>
+
+  <!-- area + line -->
+  <path class="area" d="M80,396 L200,356 L320,292 L440,236 L560,204 L680,172 L800,132 L800,460 L80,460 Z" fill="url(#areag)"/>
+  <path class="line" d="M80,396 L200,356 L320,292 L440,236 L560,204 L680,172 L800,132" fill="none" stroke="url(#lineg)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 1: label below-right -->
+  <g class="pt p1">
+    <circle cx="80" cy="396" r="6" fill="#0d1117" stroke="#58a6ff" stroke-width="2.5"/>
+    <text class="mono date" x="72" y="424">2020 – 2024</text>
+    <text class="sans title" x="72" y="442">B.Sc. Data Science &amp; AI</text>
+  </g>
+  <!-- 2: label above-left -->
+  <g class="pt p2">
+    <circle cx="200" cy="356" r="6" fill="#0d1117" stroke="#4fb3f6" stroke-width="2.5"/>
+    <text class="mono date" x="208" y="318" text-anchor="end">Oct 2024</text>
+    <text class="sans title" x="208" y="336" text-anchor="end">AI prompt engineering</text>
+  </g>
+  <!-- 3: label below-right -->
+  <g class="pt p3">
+    <circle cx="320" cy="292" r="6" fill="#0d1117" stroke="#45c0ec" stroke-width="2.5"/>
+    <text class="mono date" x="312" y="320">Jan 2025</text>
+    <text class="sans title" x="312" y="338">Backend · e-learning</text>
+  </g>
+  <!-- 4: label above-left, ongoing -->
+  <g class="pt p4">
+    <circle class="pulse" cx="440" cy="236" r="6" fill="#22d3ee"/>
+    <circle cx="440" cy="236" r="6" fill="#22d3ee"/>
+    <text class="mono date" x="448" y="198" text-anchor="end">Oct 2025 · now</text>
+    <text class="sans title" x="448" y="216" text-anchor="end">Co-founder · Servo</text>
+  </g>
+  <!-- 5: label below-right -->
+  <g class="pt p5">
+    <circle cx="560" cy="204" r="6" fill="#0d1117" stroke="#2dd4bf" stroke-width="2.5"/>
+    <text class="mono date" x="552" y="232">Late 2025</text>
+    <text class="sans title" x="552" y="250">Freelance platforms</text>
+  </g>
+  <!-- 6: label above-left -->
+  <g class="pt p6">
+    <circle cx="680" cy="172" r="6" fill="#0d1117" stroke="#34d399" stroke-width="2.5"/>
+    <text class="mono date" x="688" y="134" text-anchor="end">Mar 2026</text>
+    <text class="sans title" x="688" y="152" text-anchor="end">Industrial IoT</text>
+  </g>
+  <!-- 7: label above-left, current -->
+  <g class="pt p7">
+    <circle class="pulse" cx="800" cy="132" r="6" fill="#39d353"/>
+    <circle cx="800" cy="132" r="6" fill="#39d353"/>
+    <text class="mono date" x="808" y="94" text-anchor="end">Aug 2026 · now</text>
+    <text class="sans title" x="808" y="112" text-anchor="end">Open-source automation</text>
+  </g>
+</svg>
