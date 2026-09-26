@@ -25,7 +25,7 @@ class Odai:
 ### Tech stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,ts,django,fastapi,flask,nodejs,tensorflow,sklearn,opencv,postgres,mysql,sqlite,redis,docker,nginx,git&theme=dark" alt="Python, TypeScript, Django, FastAPI, Flask, Node.js, TensorFlow, scikit-learn, OpenCV, PostgreSQL, MySQL, SQLite, Redis, Docker, Nginx, Git" />
+  <img src="https://skillicons.dev/icons?i=python,ts,django,fastapi,flask,nodejs,tensorflow,sklearn,opencv,postgres,mysql,sqlite,redis,docker,nginx,git&theme=dark&perline=8" alt="Python, TypeScript, Django, FastAPI, Flask, Node.js, TensorFlow, scikit-learn, OpenCV, PostgreSQL, MySQL, SQLite, Redis, Docker, Nginx, Git" />
 </p>
 
 ### What I work on
