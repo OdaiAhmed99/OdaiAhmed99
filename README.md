@@ -4,12 +4,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=Backend+%26+AI+engineer;FastAPI+%C2%B7+Django+%C2%B7+RAG+%C2%B7+LLM+agents;Building+automation+that+ships" alt="Backend & AI engineer" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/role-Backend%20%26%20AI%20Engineer-58a6ff?style=flat-square&labelColor=161b22" alt="Role: Backend & AI Engineer" />
-  <img src="https://img.shields.io/badge/focus-APIs%20%C2%B7%20Agents%20%C2%B7%20Automation-22d3ee?style=flat-square&labelColor=161b22" alt="Focus: APIs, Agents, Automation" />
-  <img src="https://img.shields.io/badge/degree-B.Sc.%20Data%20Science%20%26%20AI-39d353?style=flat-square&labelColor=161b22" alt="Degree: B.Sc. Data Science & AI" />
-</p>
-
 ### GitHub activity
 
 <p align="center">
