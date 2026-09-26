@@ -1,7 +1,7 @@
 <h1 align="center">Odai Ahmad</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=Backend+%26+AI+engineer;FastAPI+%C2%B7+Django+%C2%B7+RAG+%C2%B7+LLM+agents;Building+automation+that+ships" alt="Backend & AI engineer" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&height=28&lines=Backend+%26+AI+engineer;FastAPI+%C2%B7+Django+%C2%B7+RAG+%C2%B7+LLM+agents;Building+automation+that+ships" alt="Backend & AI engineer" />
 </p>
 
 ### GitHub activity
@@ -24,7 +24,7 @@ class Odai:
 
 ### Tech stack
 
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=python,ts,django,fastapi,flask,nodejs,tensorflow,sklearn,opencv,postgres,mysql,sqlite,redis,docker,nginx,git&theme=dark&perline=8" alt="Python, TypeScript, Django, FastAPI, Flask, Node.js, TensorFlow, scikit-learn, OpenCV, PostgreSQL, MySQL, SQLite, Redis, Docker, Nginx, Git" />
 </p>
 
