@@ -1,7 +1,9 @@
 <h1 align="center">Odai Ahmad</h1>
 
+<h3 align="center">Backend &amp; AI Engineer</h3>
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&height=28&lines=Backend+%26+AI+engineer;FastAPI+%C2%B7+Django+%C2%B7+RAG+%C2%B7+LLM+agents;Building+automation+that+ships" alt="Backend & AI engineer" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&height=26&lines=FastAPI+%C2%B7+Django+%C2%B7+RAG+%C2%B7+LLM+agents;Building+automation+that+ships" alt="FastAPI · Django · RAG · LLM agents" />
 </p>
 
 ### GitHub activity
