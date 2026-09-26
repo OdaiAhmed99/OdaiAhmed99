@@ -5,9 +5,15 @@
 </p>
 
 <p align="center">
-  <a href="https://servo-agent.com/"><img src="https://img.shields.io/badge/Servo-agentic%20AI-22d3ee?style=flat-square&labelColor=161b22" alt="Servo: agentic AI" /></a>
-  <img src="https://komarev.com/ghpvc/?username=OdaiAhmed99&style=flat-square&color=39d353&label=profile+views" alt="Profile views" />
-  <a href="https://github.com/OdaiAhmed99?tab=followers"><img src="https://img.shields.io/github/followers/OdaiAhmed99?style=flat-square&label=followers&color=1f6feb&labelColor=161b22&logo=github&logoColor=white" alt="Followers" /></a>
+  <img src="https://img.shields.io/badge/role-Backend%20%26%20AI%20Engineer-58a6ff?style=flat-square&labelColor=161b22" alt="Role: Backend & AI Engineer" />
+  <img src="https://img.shields.io/badge/focus-APIs%20%C2%B7%20Agents%20%C2%B7%20Automation-22d3ee?style=flat-square&labelColor=161b22" alt="Focus: APIs, Agents, Automation" />
+  <img src="https://img.shields.io/badge/degree-B.Sc.%20Data%20Science%20%26%20AI-39d353?style=flat-square&labelColor=161b22" alt="Degree: B.Sc. Data Science & AI" />
+</p>
+
+### GitHub activity
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=OdaiAhmed99&theme=github-dark-blue&hide_border=true&background=0D1117" alt="GitHub streak" />
 </p>
 
 ---
@@ -68,15 +74,3 @@ Building, maintaining, and fixing integrations, output schemas, and AI actions f
 </p>
 
 </details>
-
-### GitHub activity
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=OdaiAhmed99&theme=github-dark-blue&hide_border=true&background=0D1117" alt="GitHub streak" />
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OdaiAhmed99/OdaiAhmed99/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OdaiAhmed99/OdaiAhmed99/output/github-snake.svg" />
-  <img alt="Contribution graph snake" src="https://raw.githubusercontent.com/OdaiAhmed99/OdaiAhmed99/output/github-snake-dark.svg" />
-</picture>
